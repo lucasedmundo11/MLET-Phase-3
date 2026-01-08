@@ -1,0 +1,26 @@
+{
+    "date_created": "2026-01-08T17:54:51.694992",
+    "models": {
+        "airports": {
+            "algorithm": "KMeans",
+            "n_clusters": 4,
+            "silhouette_score": 0.7337668563526433,
+            "n_features": 12,
+            "n_samples": 930
+        },
+        "routes": {
+            "algorithm": "KMeans",
+            "n_clusters": 5,
+            "silhouette_score": 0.17506808240912147,
+            "n_features": 14,
+            "n_samples": 5641
+        },
+        "airlines": {
+            "algorithm": "KMeans",
+            "n_clusters": 3,
+            "silhouette_score": 0.2529050635771842,
+            "n_features": 15,
+            "n_samples": 14
+        }
+    }
+}
